@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Myó — Lounge Bar & Restaurant · Napoli Vomero | Dinner Show & Karaoke</title>
+<meta name="description" content="Myó Lounge Bar & Restaurant al Vomero, Napoli. Cucina d'autore, cocktail, dinner show e karaoke dal mercoledì alla domenica. Prenota il tuo tavolo o il tuo evento su WhatsApp.">
+<meta name="theme-color" content="#0a0806">
+<link rel="canonical" href="https://myonapoli.it/">
+
+<!-- Open Graph / social -->
+<meta property="og:type" content="restaurant">
+<meta property="og:title" content="Myó — Lounge Bar & Restaurant · Napoli Vomero">
+<meta property="og:description" content="Cucina d'autore, cocktail, dinner show e karaoke nel cuore del Vomero. Prenota la tua serata.">
+<meta property="og:image" content="assets/img/location-welcome.webp">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Icons -->
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;600;700;800&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Dati strutturati per Google (SEO locale) -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BarOrPub",
+  "name":"Myó — Lounge Bar & Restaurant",
+  "image":"https://myonapoli.it/assets/img/location-welcome.webp",
+  "url":"https://myonapoli.it/",
+  "telephone":"+39 081 019 4193",
+  "priceRange":"€€",
+  "servesCuisine":["Italian","Neapolitan","Cocktail bar"],
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"Via Raffaele Morghen, 34",
+    "addressLocality":"Napoli",
+    "postalCode":"80129",
+    "addressRegion":"NA",
+    "addressCountry":"IT"
+  },
+  "geo":{"@type":"GeoCoordinates","latitude":40.8447,"longitude":14.2295},
+  "sameAs":["https://www.instagram.com/myonapoli/"],
+  "openingHoursSpecification":[
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"19:00","closes":"00:30"}
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header" id="siteHeader">
+  <a href="#top" class="brand-mark"><img src="assets/img/logo-myo.webp" alt="Logo Myó" width="38" height="38"><b>Myó</b></a>
+  <nav class="nav-links" aria-label="Navigazione principale">
+    <a href="#cibo">Cibo</a>
+    <a href="#drink">Drink</a>
+    <a href="#location">Location</a>
+    <a href="#serata">Serata</a>
+    <a href="#prenota">Festeggia</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+  <a href="#prenota" class="btn btn-gold header-cta">Prenota</a>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="top">
+  <div class="hero-bg">
+    <video autoplay muted loop playsinline poster="assets/img/poster-sfondo.webp">
+      <source src="assets/video/sfondo.mp4" type="video/mp4">
+    </video>
+    <img src="assets/img/poster-sfondo.webp" alt="" hidden>
+  </div>
+  <div class="hero-inner">
+    <h1>Myó — Lounge Bar & Restaurant, Napoli Vomero</h1>
+    <img class="hero-logo" src="assets/img/logo-myo.webp" alt="Myó" width="210" height="210">
+    <p class="hero-sub">Lounge Bar & Restaurant</p>
+    <div class="open-pill" id="openPill"><span class="dot"></span><span id="openText">Orari</span></div>
+    <p class="hero-claim">Cena, <em>dinner show</em> e karaoke<br>nel cuore del Vomero.</p>
+    <p class="hero-place"><strong>Via Raffaele Morghen 34</strong> · Napoli · dal mercoledì alla domenica</p>
+    <div class="hero-ctas">
+      <a href="#prenota" class="btn btn-gold">Prenota la serata</a>
+      <a href="#" class="btn btn-ghost" data-wa data-wa-msg="Ciao Myó! Vorrei qualche informazione 😊">WhatsApp</a>
+    </div>
+  </div>
+  <a href="#cibo" class="scroll-hint" aria-label="Scorri">Scopri<span></span></a>
+</section>
+
+<!-- ===================== CIBO ===================== -->
+<section id="cibo">
+  <div class="wrap">
+    <div class="split">
+      <div class="media">
+        <img src="assets/img/cibo.webp" alt="Piatto d'autore servito sul tamburello da Myó" width="1080" height="1350" loading="lazy">
+      </div>
+      <div class="content">
+        <div class="section-head">
+          <p class="kicker" id="cibo-kicker"></p>
+          <h2 class="section-title" id="cibo-title"></h2>
+          <p class="lead" id="cibo-text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="menu-lists" id="cibo-menu"></div>
+    <p class="menu-foot">Menù completo e prezzi disponibili in sala. Per allergie e intolleranze chiedi al nostro staff.</p>
+  </div>
+</section>
+
+<!-- ===================== DRINK ===================== -->
+<section id="drink" style="background:linear-gradient(180deg,#0a0806, #0c1418 55%, #0a0806)">
+  <div class="wrap">
+    <div class="split reverse">
+      <div class="media">
+        <video data-lazy-video muted loop playsinline poster="assets/img/poster-drink.webp">
+          <source data-src="assets/video/drinks.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="content">
+        <div class="section-head">
+          <p class="kicker" id="drink-kicker"></p>
+          <h2 class="section-title" id="drink-title"></h2>
+          <p class="lead" id="drink-text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="menu-lists" id="drink-menu"></div>
+    <p class="menu-foot">Carta cocktail completa in sala · miscelazione a vista al bancone.</p>
+  </div>
+</section>
+
+<!-- ===================== LOCATION ===================== -->
+<section id="location">
+  <div class="wrap">
+    <div class="split">
+      <div class="loc-gallery">
+        <figure><img src="assets/img/location-welcome.webp" alt="Ingresso di Myó, tra verde e luci al neon" width="1080" height="1350" loading="lazy"></figure>
+        <figure><img src="assets/img/location-esterna.webp" alt="Esterno del locale Myó al Vomero" width="1080" height="1350" loading="lazy"></figure>
+        <figure><img src="assets/img/drink.webp" alt="Cocktail preparato al bancone Myó" width="1080" height="1350" loading="lazy"></figure>
+      </div>
+      <div class="content">
+        <div class="section-head">
+          <p class="kicker" id="loc-kicker"></p>
+          <h2 class="section-title" id="loc-title"></h2>
+          <p class="lead" id="loc-text"></p>
+          <ul class="points" id="loc-points"></ul>
+          <div class="hero-ctas" style="justify-content:flex-start; margin-top:1.8rem">
+            <a href="#" class="btn btn-ghost" id="mapsBtn">Apri in Maps</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERATA ===================== -->
+<section id="serata" class="video-section serata">
+  <div class="vbg">
+    <video data-lazy-video muted loop playsinline poster="assets/img/poster-serata.webp">
+      <source data-src="assets/video/serata.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="wrap">
+    <div class="section-head" style="text-align:center; max-width:620px; margin-inline:auto">
+      <p class="kicker" id="serata-kicker" style="color:var(--purple)"></p>
+      <h2 class="section-title" id="serata-title"></h2>
+      <p class="lead" id="serata-text" style="margin-inline:auto"></p>
+    </div>
+    <div class="program" id="serata-program"></div>
+    <div class="hero-ctas" style="justify-content:center; margin-top:2.2rem">
+      <a href="#prenota" class="btn btn-gold">Prenota il tuo tavolo</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FESTEGGIA / PRENOTA ===================== -->
+<section id="prenota" class="video-section festeggia">
+  <div class="vbg">
+    <video data-lazy-video muted loop playsinline poster="assets/img/poster-festeggia.webp">
+      <source data-src="assets/video/festeggia.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="wrap">
+    <div class="section-head" style="text-align:center; max-width:620px; margin-inline:auto">
+      <p class="kicker" id="fest-kicker"></p>
+      <h2 class="section-title" id="fest-title"></h2>
+      <p class="lead" id="fest-text" style="margin-inline:auto"></p>
+    </div>
+
+    <form class="booking" id="bookingForm" novalidate>
+      <div class="field-row">
+        <div class="field">
+          <label for="f-nome">Nome <span class="req">*</span></label>
+          <input type="text" id="f-nome" name="nome" autocomplete="given-name" placeholder="Mario">
+          <span class="err">Inserisci il tuo nome.</span>
+        </div>
+        <div class="field">
+          <label for="f-cognome">Cognome <span class="req">*</span></label>
+          <input type="text" id="f-cognome" name="cognome" autocomplete="family-name" placeholder="Rossi">
+          <span class="err">Inserisci il tuo cognome.</span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="f-tel">Numero di telefono <span class="req">*</span></label>
+        <input type="tel" id="f-tel" name="tel" inputmode="tel" autocomplete="tel" placeholder="333 1234567">
+        <span class="err">Inserisci un numero di telefono valido.</span>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="f-data">Data <span class="req">*</span></label>
+          <input type="date" id="f-data" name="data">
+          <span class="err">Scegli una data valida (non passata).</span>
+        </div>
+        <div class="field">
+          <label for="f-persone">Persone <span class="req">*</span></label>
+          <input type="number" id="f-persone" name="persone" min="1" max="30" placeholder="2">
+          <span class="err">Indica quante persone (1–30).</span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="f-orario">Orario <span class="req">*</span></label>
+        <select id="f-orario" name="orario">
+          <option value="">Seleziona un orario</option>
+        </select>
+        <span class="err">Scegli un orario di apertura.</span>
+      </div>
+
+      <button type="submit" class="btn btn-wa">
+        <svg viewBox="0 0 24 24"><path d="M.06 24l1.68-6.13A11.9 11.9 0 0 1 .16 11.9C.16 5.34 5.5 0 12.06 0a11.8 11.8 0 0 1 8.4 3.49 11.8 11.8 0 0 1 3.48 8.41c0 6.55-5.34 11.89-11.9 11.89a11.9 11.9 0 0 1-5.68-1.45L.06 24zM6.6 20.2l.36.22a9.9 9.9 0 0 0 5.04 1.38h.01c5.45 0 9.88-4.43 9.88-9.88a9.82 9.82 0 0 0-2.9-6.99A9.82 9.82 0 0 0 12.06 2c-5.45 0-9.88 4.43-9.88 9.88 0 1.86.52 3.68 1.5 5.25l.24.38-1 3.63 3.68-.94zM17.5 14.3c-.07-.12-.27-.2-.56-.34-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.66.15-.2.3-.76.96-.93 1.16-.17.2-.34.22-.63.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.6.13-.14.3-.36.44-.53.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.66-1.6-.9-2.19-.24-.57-.48-.5-.66-.5l-.56-.01c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.06 2.87 1.21 3.07.15.2 2.1 3.2 5.08 4.48.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.42z"/></svg>
+        Invia richiesta su WhatsApp
+      </button>
+      <p class="booking-note">Compilando il form si aprirà WhatsApp con il messaggio già pronto: premi <strong>invio</strong> per inviarcelo. Ti confermeremo il tavolo in chat.</p>
+
+      <div class="booking-ok" id="bookingOk">
+        <div class="ok-ic"><svg viewBox="0 0 24 24"><path d="M9 16.2l-3.5-3.5L4 14.2l5 5 11-11-1.4-1.4z"/></svg></div>
+        <h3>Ti stiamo aprendo WhatsApp</h3>
+        <p>Premi <strong>invio</strong> nella chat per confermare la richiesta. Ti risponderemo appena possibile!</p>
+        <button type="button" id="resetBooking">Fai un'altra richiesta</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ===================== CONTATTI ===================== -->
+<section id="contatti">
+  <div class="wrap">
+    <div class="section-head" style="text-align:center; max-width:620px; margin-inline:auto">
+      <p class="kicker">Dove siamo</p>
+      <h2 class="section-title">Ci trovi al <em>Vomero</em></h2>
+    </div>
+    <div class="contact-grid">
+      <div class="map-embed">
+        <iframe title="Mappa Myó — Via Raffaele Morghen 34, Napoli" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Via%20Raffaele%20Morghen%2034%2080129%20Napoli&output=embed"></iframe>
+      </div>
+      <div class="info-tiles">
+        <a class="tile" id="tileAddr" href="#">
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span>
+          <span><span class="t-label">Indirizzo</span><span class="t-val">Via Raffaele Morghen, 34<br>80129 Napoli (NA)</span></span>
+        </a>
+        <a class="tile" id="tilePhone" href="#">
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1l-2.2 2z"/></svg></span>
+          <span><span class="t-label">Telefono</span><span class="t-val">081 019 4193</span></span>
+        </a>
+        <a class="tile" id="tileWa" href="#">
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M.06 24l1.68-6.13A11.9 11.9 0 0 1 .16 11.9C.16 5.34 5.5 0 12.06 0a11.8 11.8 0 0 1 8.4 3.49 11.8 11.8 0 0 1 3.48 8.41c0 6.55-5.34 11.89-11.9 11.89a11.9 11.9 0 0 1-5.68-1.45L.06 24zM6.6 20.2l.36.22a9.9 9.9 0 0 0 5.04 1.38c5.46 0 9.89-4.43 9.89-9.88a9.82 9.82 0 0 0-2.9-6.99A9.82 9.82 0 0 0 12.06 2c-5.45 0-9.88 4.43-9.88 9.88 0 1.86.52 3.68 1.5 5.25l.24.38-1 3.63 3.68-.94z"/></svg></span>
+          <span><span class="t-label">WhatsApp</span><span class="t-val">339 106 9547</span></span>
+        </a>
+        <div class="tile hours-tile">
+          <span class="t-label">Orari di apertura</span>
+          <div id="hoursList"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="f-logo">Myó</div>
+  <p class="f-addr">Lounge Bar & Restaurant · Napoli, Vomero<br>Via Raffaele Morghen, 34 — 80129 Napoli (NA)</p>
+  <div class="f-socials">
+    <a href="https://www.instagram.com/myonapoli/" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.05 1.8.25 2.2.42.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.17.4.37 1 .42 2.2.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.05 1.2-.25 1.8-.42 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.17-1 .37-2.2.42-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.05-1.8-.25-2.2-.42-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.17-.4-.37-1-.42-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.05-1.2.25-1.8.42-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.17 1-.37 2.2-.42C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.07-1.1.05-1.7.24-2.1.4-.5.2-.9.44-1.3.84-.4.4-.64.8-.84 1.3-.16.4-.35 1-.4 2.1C2.6 9.9 2.6 10.3 2.6 12s0 2.1.06 3.3c.05 1.1.24 1.7.4 2.1.2.5.44.9.84 1.3.4.4.8.64 1.3.84.4.16 1 .35 2.1.4 1.2.06 1.6.07 4.7.07s3.5 0 4.7-.07c1.1-.05 1.7-.24 2.1-.4.5-.2.9-.44 1.3-.84.4-.4.64-.8.84-1.3.16-.4.35-1 .4-2.1.06-1.2.07-1.6.07-3.3s0-2.1-.07-3.3c-.05-1.1-.24-1.7-.4-2.1-.2-.5-.44-.9-.84-1.3-.4-.4-.8-.64-1.3-.84-.4-.16-1-.35-2.1-.4-1.2-.06-1.6-.07-4.7-.07zm0 3.06A4.94 4.94 0 1 1 12 17a4.94 4.94 0 0 1 0-9.88zm0 1.8a3.14 3.14 0 1 0 0 6.28 3.14 3.14 0 0 0 0-6.28zm5.2-.55a1.15 1.15 0 1 1-2.3 0 1.15 1.15 0 0 1 2.3 0z"/></svg>
+    </a>
+    <a href="#" id="footWa" aria-label="WhatsApp">
+      <svg viewBox="0 0 24 24"><path d="M.06 24l1.68-6.13A11.9 11.9 0 0 1 .16 11.9C.16 5.34 5.5 0 12.06 0a11.8 11.8 0 0 1 8.4 3.49 11.8 11.8 0 0 1 3.48 8.41c0 6.55-5.34 11.89-11.9 11.89a11.9 11.9 0 0 1-5.68-1.45L.06 24zM6.6 20.2l.36.22a9.9 9.9 0 0 0 5.04 1.38c5.46 0 9.89-4.43 9.89-9.88a9.82 9.82 0 0 0-2.9-6.99A9.82 9.82 0 0 0 12.06 2c-5.45 0-9.88 4.43-9.88 9.88 0 1.86.52 3.68 1.5 5.25l.24.38-1 3.63 3.68-.94z"/></svg>
+    </a>
+  </div>
+  <p class="f-credit">© <span id="year"></span> Myó Lounge Bar & Restaurant · P.IVA da inserire · Realizzato con cura</p>
+</footer>
+
+<!-- ===================== STICKY BAR (mobile) ===================== -->
+<nav class="sticky-bar" aria-label="Azioni rapide">
+  <a class="sb-call" id="sbCall" href="#">
+    <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1l-2.2 2z"/></svg>
+    Chiama
+  </a>
+  <a class="sb-wa" id="sbWa" href="#">
+    <svg viewBox="0 0 24 24"><path d="M.06 24l1.68-6.13A11.9 11.9 0 0 1 .16 11.9C.16 5.34 5.5 0 12.06 0a11.8 11.8 0 0 1 8.4 3.49 11.8 11.8 0 0 1 3.48 8.41c0 6.55-5.34 11.89-11.9 11.89a11.9 11.9 0 0 1-5.68-1.45L.06 24zM6.6 20.2l.36.22a9.9 9.9 0 0 0 5.04 1.38c5.46 0 9.89-4.43 9.89-9.88a9.82 9.82 0 0 0-2.9-6.99A9.82 9.82 0 0 0 12.06 2c-5.45 0-9.88 4.43-9.88 9.88 0 1.86.52 3.68 1.5 5.25l.24.38-1 3.63 3.68-.94z"/></svg>
+    WhatsApp
+  </a>
+  <a class="sb-book" href="#prenota">
+    <svg viewBox="0 0 24 24"><path d="M17 3h-1V1h-2v2H8V1H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm0 16H5V8h12v11z"/></svg>
+    Prenota
+  </a>
+</nav>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
